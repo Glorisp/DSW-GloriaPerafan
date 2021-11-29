@@ -9,11 +9,11 @@ nav{
 }
 section{
     background-color: #C4BBF0;
-    grid-column: 1/4;
+    
 }
 aside{
     background-color: #927FBF;
-    grid-column: 4/5;
+    
     
 }
 footer{

@@ -13,9 +13,14 @@
     crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <center><br></b><h1> Conozcamos Las Etiquetas Semánticas y CSS Grid</h1></center>
-        <br>
+    <header class="container-fluid bg-primary">
+        <div class="row">
+            <div class="col-md-3"><center><img src="img/logo.png" alt="image" ></center></div>
+            <div class="col-md-7"><center><br><h2> Conozcamos Las Etiquetas Semánticas y CSS Grid</h2></center><br></div>
+            <div class="col-md-2">Columna 3</div>
+
+        </div>
+
     </header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
@@ -60,11 +65,11 @@
                             APRENDIZAJE
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="aprendizaje1.html">APRENDIZAJE ETIQUETAS SEMÁNTICAS</a></li>
+                            <li><a class="dropdown-item" href="Evaluacion1.html">APRENDIZAJE ETIQUETAS SEMÁNTICAS</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="aprendizaje2.html">APRENDIZAJE CSS GRID</a></li>
+                            <li><a class="dropdown-item" href="Evaluacion2.html">APRENDIZAJE CSS GRID</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -75,23 +80,37 @@
             </div>
         </div>
     </nav>
-    <main>
-        <section>
-                <article>
-                    <center><h2>CSS Grid</h2></center>
-                    <P>CSS Grid es un sistema de maquetación web que divide la página en una cuadrícula o rejilla (grid) a partir de la cual se pueden posicionar los diferentes elementos de manera más sencilla, versátil y coherente.
-                        Su practicidad y sus múltiples ventajas lo han convertido en un estándar. Es decir, casi cualquier navegador soporta e interpreta este tipo de código.
-                        <br>
-                        La irrupción de CSS Grid, junto con Flexbox, supuso una revolución en el mundo de la programación web, ya que permitía realizar con mucho menos código elementos y estructuras que resultaban muy complejas o directamente imposibles. («CSS Grid», 2019)</P>
 
-                    <center><img src="img/css.jpg" alt="image" height="200" width="300"></center>
-                </article>
-                
-        </section>
-        <aside>
-            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Ffacebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-        </aside>
+    <main class="containerr-fluid">
+        <div class="row">
+            <div class="col-md-8">
+                <section>
+                    <article>
+                        <center><h2>CSS Grid</h2></center>
+                        <P>CSS Grid es un sistema de maquetación web que divide la página en una cuadrícula o rejilla (grid) a partir de la cual se pueden posicionar los diferentes elementos de manera más sencilla, versátil y coherente.
+                            Su practicidad y sus múltiples ventajas lo han convertido en un estándar. Es decir, casi cualquier navegador soporta e interpreta este tipo de código.
+                            <br>
+                            La irrupción de CSS Grid, junto con Flexbox, supuso una revolución en el mundo de la programación web, ya que permitía realizar con mucho menos código elementos y estructuras que resultaban muy complejas o directamente imposibles. («CSS Grid», 2019)</P>
+    
+                        <center><img src="img/css.jpg" alt="image" height="200" width="300"></center>
+                    </article>
+                    
+            </section>
+
+            </div>
+            <aside class="col-md-4">
+                <iframe
+                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                    width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </aside>
+
+        </div>
+
+
     </main>
+    
     <hr>
     <footer>
         <center><h4>Correo: gaperafanh@unadvirtula.edu.co

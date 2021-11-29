@@ -13,8 +13,14 @@
     crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <center><br><h1> Conozcamos Las Etiquetas Semánticas y CSS Grid</h1></center><br> 
+    <header class="container-fluid bg-primary">
+        <div class="row">
+            <div class="col-md-3"><center><img src="img/logo.png" alt="image" ></center></div>
+            <div class="col-md-7"><center><br><h2> Conozcamos Las Etiquetas Semánticas y CSS Grid</h2></center><br></div>
+            <div class="col-md-2">Columna 3</div>
+
+        </div>
+
     </header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
@@ -59,11 +65,11 @@
                             APRENDIZAJE
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="aprendizaje1.html">APRENDIZAJE ETIQUETAS SEMÁNTICAS</a></li>
+                            <li><a class="dropdown-item" href="Evaluacion1.html">APRENDIZAJE ETIQUETAS SEMÁNTICAS</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="aprendizaje2.html">APRENDIZAJE CSS GRID</a></li>
+                            <li><a class="dropdown-item" href="Evaluacion2.html">APRENDIZAJE CSS GRID</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -74,21 +80,32 @@
             </div>
         </div>
     </nav>
-    <main>
-        <section>
-            <article> <center><h2> Etiquetas semánticas </h2></center>  
-                <h1>Audio</h1>
-                <center><audio src="audio/Etiqueta.m4a"controls></audio></center>
-                <br>
-               <center><img src="img/esti1.png" alt=""></center>
+    <main class="containerr-fluid">
+        <div class="row">
+            <div class="col-md-8">
+                <section>
+                    <article> <center><h2> Etiquetas semánticas </h2></center>  
+                        <h1>Audio</h1>
+                        <center><audio src="audio/Etiqueta.m4a"controls></audio></center>
+                        <br>
+                       <center><img src="img/esti1.png" alt=""></center>
+        
+                    </article> 
+                    
+                </section>
+            </div>
+            <aside class="col-md-4">
+                <iframe
+                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                    width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </aside>
 
-            </article> 
-            
-        </section>
-        <aside>
-            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Ffacebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-        </aside>
+        </div>
+
     </main>
+    
     <footer>
         <center><h4>Correo: gaperafanh@unadvirtula.edu.co
             <br> Skype: gloris.a 
